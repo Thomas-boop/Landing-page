@@ -1,10 +1,10 @@
-.hero{
+.hero {
     height: 80vh;
     width: 100%;
     background-color: #1F2937;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,46 +13,49 @@ nav{
     padding-right: 10%;
 }
 
-.logo{
+.logo {
     color: #F9FAF8;
     font-size: 28px;
 }
 
-nav ul li{
+nav ul li {
     padding: 10px 20px;
     display: inline-block;
     list-style-type: none;
 }
 
-hr{
+hr {
     color: #1F2937;
 }
 
 
-nav ul li a{
+nav ul li a {
 
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: red;
     transition: .3s;
 }
 
-.heading1, h1{
+.heading1,
+h1 {
     color: #F9FAF8;
     align-items: center;
     justify-content: space-between;
     font-size: 48px;
     font-weight: bold;
-    margin: auto;  
+    margin: auto;
     padding-left: 30px;
     font-family: "Times New Roman", Helvetica, sans-serif;
 }
 
 
-.heading2,p{
+.heading2,
+p {
     color: #F9FAF8;
     justify-content: space-between;
     text-align: left;
@@ -69,16 +72,16 @@ nav ul li a:hover{
     padding-left: 290px;
 }
 
-#logo_manipulation{
+#logo_manipulation {
     padding-left: 10px;
 }
 
-#move{
+#move {
     flex-direction: row;
     display: flex;
 }
 
-button{
+button {
 
     border: none;
     background-color: #3882F6;
@@ -91,14 +94,14 @@ button{
 }
 
 
- .hero2{
+.hero2 {
     height: 63vh;
     width: 100%;
     background-color: white;
 }
 
 
-.mainStyle  .descendent2{
+.mainStyle .descendent2 {
 
     font-size: 36px;
     font-weight: 900;
@@ -106,7 +109,7 @@ button{
     text-align: center;
 }
 
-.card_container{
+.card_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,14 +117,14 @@ button{
 }
 
 
-.card{
+.card {
     text-align: center;
     max-width: 200px;
     margin: 2em;
 
 }
 
-.square{
+.square {
     border: 4px solid #3882F6;
     border-radius: 20px;
     width: 160px;
@@ -130,7 +133,7 @@ button{
     gap: 25px;
 }
 
-.belowText{
+.belowText {
     color: black;
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
@@ -146,7 +149,7 @@ button{
     border-radius: 17px;
 }
 
-.hero3{
+.hero3 {
 
     height: 60vh;
     width: 100%;
@@ -154,13 +157,13 @@ button{
 }
 
 
-.quote-container{
+.quote-container {
 
     display: flex;
     flex-direction: row;
 }
 
-.quote{
+.quote {
 
     text-align: center;
     color: #1F2937;
@@ -171,19 +174,60 @@ button{
 
 }
 
-#author{
+#author {
     font-size: 40px;
     font-weight: bold;
     padding-left: 16em;
 }
 
+.hero4 {
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+}
+
+.div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
 
+}
 
 
+.rectangle {
+    align-content: center;
+    margin-top: 10em;
+    border: 4px solid #3882F6;
+    background-color: #3882F6;
+    border-radius: 20px;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
 
+.rectangle h2 {
+    color: #E5E7EB;
+    margin: auto;
+    /* text-align: center; */
 
+}
 
+.bottomButton {
+    border: 2px solid #E5E7EB;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    margin-left: 4em;
+}
 
+.rec {
+    margin: auto;
 
-
+}
