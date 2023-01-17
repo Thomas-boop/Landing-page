@@ -1,5 +1,5 @@
 .hero{
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     background-color: #1F2937;
 }
@@ -22,6 +22,10 @@ nav ul li{
     padding: 10px 20px;
     display: inline-block;
     list-style-type: none;
+}
+
+hr{
+    color: #1F2937;
 }
 
 
@@ -74,10 +78,104 @@ nav ul li a:hover{
     display: flex;
 }
 
+button{
+
+    border: none;
+    background-color: #3882F6;
+    margin-top: 10px;
+    padding: 17px 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    margin-left: 4em;
+}
 
 
+ .hero2{
+    height: 63vh;
+    width: 100%;
+    background-color: white;
+}
 
 
+.mainStyle  .descendent2{
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    text-align: center;
+    max-width: 200px;
+    margin: 2em;
+
+}
+
+.square{
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+    padding-right: 10px;
+    gap: 25px;
+}
+
+.belowText{
+    color: black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 4em;
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+.cute {
+
+    height: 161px;
+    width: 170px;
+    border-radius: 17px;
+}
+
+.hero3{
+
+    height: 60vh;
+    width: 100%;
+    background-color: #E5E7EB;
+}
+
+
+.quote-container{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.quote{
+
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font: italic;
+    font-weight: 100;
+    margin-top: 5em;
+
+}
+
+#author{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 16em;
+}
 
 
 
